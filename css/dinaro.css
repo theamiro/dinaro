@@ -952,7 +952,6 @@ footer {
 
 #industries .feature-card {
 	border: 0;
-	filter: grayscale(1);
 	background-repeat: no-repeat;
 }
 #industries .feature-card:hover {
@@ -978,6 +977,7 @@ footer {
 #industries .feature-card .feature-p {
 	/* max-width: 300px; */
 	/* width: 180px; */
+	display: none;
 }
 
 .transition-enabled {
